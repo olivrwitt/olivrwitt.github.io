@@ -1,5 +1,18 @@
 ---
 title: "Oliver Witt"
+image: "images/headshot.jpeg"
+toc: false
+about: 
+    template: jolla
+    image-shape: round
+    image-width: 17em
+    links: 
+        - text: LinkedIn
+          href: https://linkedin.com/in/oliverhwitt
+          target: _blank
+        - text: GitHub
+          href: https://github.com/olivrwitt
+          target: _blank
+        - text: Email
+          href: mailto:olivrwitt@gmail.com
 ---
-
-Hola
