@@ -9,6 +9,8 @@ about:
 ---
 Data scientist, ecologist, athlete, and photographer
 
+***linkedin/mail/github logos not showing up!! fix!***
+
 <div style="display: flex; gap: 20px;  align-items: center;
   justify-content: center;">
 <a href="https://linkedin.com/in/oliverhwitt">
