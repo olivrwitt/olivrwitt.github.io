@@ -1,0 +1,123 @@
+next step is add a little blurb
+
+and add all the us states ive been to? (idk like one city per state or smthng)
+
+<div style="text-align: center; margin-bottom: 2rem;">
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(leaflet)
+library(dplyr)
+
+
+travel_points <- data.frame(
+  place = c(
+    "Rome, Italy", "Cinque Terre, Italy", "Pisa, Italy", "Venice, Italy", "Lima, Peru", "Cuzco, Peru", "Sacred Valley, Peru", "Machu Picchu, Peru", "Vancouver, Canada", "Seville, Spain", "Granada, Spain", "Porto, Portugal", "San Francisco, California", "Innsbruck, Austria", 
+    "Brussels, Belgium", 
+    "Bath, England", "London, England",
+    "Paris, France", 
+    "Heraklion, Greece", 
+    "Reykjavik, Iceland", 
+    "Dublin, Ireland",
+    "Enniskillen, Northern Ireland", 
+    "Oslo, Norway", "Bergen, Norway", 
+    "Stockholm, Sweden", 
+    "Cordoba, Spain", "Madrid, Spain", 
+    "Zurich, Switzerland", "Lucerne, Switzerland",
+    "Vaduz, Liechtenstein",
+    "Gibraltar, UK",
+    "Vatican City, Vatican",  "Sydney, Australia", "Brisbane, Australia", "Gold Coast, Australia", "Hobart, Australia", "Perth, Australia", "Esperance, Australia", "Christchurch, New Zealand", "Queenstown, New Zealand", "Wanaka, New Zealand", "Quito, Ecuador", "Galapagos, Ecuador", "Puno, Peru", "Cape Town, South Africa", "Johannesburg, South Africa", "Antananarivo, Madagascar", "Lusaka, Zambia", "Nairobi, Kenya", "Merida, Mexico", "Tulum, Mexico", "San Jose, Costa Rica", "Banff, Canada"
+ ),
+lat = c(
+    41.9028, 44.1194, 43.7228, 45.4408, -12.0464, -13.5320, -13.2861, -13.1631, 49.2827, 37.3891, 37.1773, 41.1579, 37.7739,
+    
+    47.2627, 50.8504, 51.3813, 51.5085, 48.8534, 35.3387, 64.1355, 53.3498, 54.3448, 59.9139, 60.3913, 59.3293, 37.8882, 40.4165, 47.3769, 47.0502, 47.1410, 36.1408, 41.9029,  -33.8678, -27.4679, -28.0003, -42.8821, -31.9522, -33.8615, -43.5321, -45.0312, -44.6980, -0.2295, 0.0001, -15.8402, -33.9249, -26.2041, -18.8792, -15.4167, -1.2921, 20.9674, 20.2114, 9.9339, 51.1784
+  ), 
+lon = c(
+    12.4964, 9.7159, 10.4017, 12.3155, -77.0428, -71.9675, -72.0716, -72.5450, -123.1207, -5.9845, -3.5986, -8.6291, -122.4312, 
+    
+    11.3945, 4.3488, -2.3599, -0.1257, 2.3488, 25.1350, -21.8954, -6.2603, -7.6411, 10.7522, 5.3221, 18.0686, -4.7794, -3.7026, 8.5417, 8.3090, 9.5215, -5.3536, 12.4534, 151.2073, 153.0281, 153.4309, 147.3272, 115.8614, 121.8916, 172.6362, 168.6626, 169.1320, -78.5243, -90.5000, -70.0219, 18.4241, 28.0473, 47.5079, 28.3228, 36.8219, -89.5926, -87.4654, -84.0849, -115.5708
+  ),
+  region = c(
+    rep("Europe", 26),
+    rep("South America", 7),
+    rep("North America", 5),
+    rep("Africa", 5),
+    rep("Oceania", 9),
+    "Home"
+  )
+)
+
+travel_points <- rbind(
+  travel_points,
+  data.frame(
+    place = "UCSB",
+    lat = 34.4140,
+    lon = -119.8489,
+    region = "School"
+  )
+)
+
+travel_points <- rbind(
+  travel_points,
+  data.frame(
+    place = "WashU",
+    lat = 38.6489,
+    lon = -90.3125,
+    region = "School"
+  )
+)
+
+# Create custom icons
+home_icon <- makeAwesomeIcon(
+  icon = 'home', markerColor = 'blue', iconColor = 'white', library = 'fa'
+)
+school_icon <- makeAwesomeIcon(
+  icon = 'university', markerColor = "purple", iconColor = 'white', library = 'fa'
+)
+# Build the map
+leaflet(travel_points) %>%
+  addProviderTiles(providers$OpenStreetMap) %>%
+  # Add circle markers for all except Home and UCSB
+  addCircleMarkers(
+    data = subset(travel_points, place != "San Francisco, California" & place != "UCSB" & place != "WashU"),
+    ~lon, ~lat,
+    fillColor = "red",
+    color = "white",
+    radius = 6,
+    weight = 1,
+    fillOpacity = 0.9,
+    popup = ~paste0("<strong>", place, "</strong>"),
+    clusterOptions = markerClusterOptions(),
+    group = "places"  # group name for search
+  ) %>%
+  # Add the home icon
+  addAwesomeMarkers(
+    data = subset(travel_points, place == "San Francisco, California"),
+    ~lon, ~lat,
+    icon = home_icon,
+    popup = ~paste0("<strong>Home: ", place, "</strong>")
+  ) %>%
+  # Add the school icon for UCSB
+  addAwesomeMarkers(
+    data = subset(travel_points, place == "UCSB"),
+    ~lon, ~lat,
+    icon = school_icon,
+    popup = ~paste0("<strong>School: ", place, "</strong>")
+  ) %>%
+   addAwesomeMarkers(
+    data = subset(travel_points, place == "WashU"),
+    ~lon, ~lat,
+    icon = school_icon,
+    popup = ~paste0("<strong>School: ", place, "</strong>")
+  ) %>%
+    # Add reset view button
+  addEasyButton(
+    easyButton(
+      icon = "fa-globe", title = "Reset View",
+      onClick = JS("function(btn, map){ map.setView([20, 0], 2); }")
+    )
+  )
+
+```
+</div>
+
+  

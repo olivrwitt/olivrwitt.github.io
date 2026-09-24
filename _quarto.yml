@@ -13,6 +13,12 @@ website:
         text: "Resources"
       - href: projects.qmd
         text: "Projects"
+      - href: travel.qmd
+        text: "Travel"
+      - href: Running.qmd
+        text: "Athletics"
+      - href: photography.qmd
+        text: "Photography"
 
 
 

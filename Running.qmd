@@ -1,0 +1,8 @@
+link strava heatmap using leaflet
+
+
+lowkey since this is supposed to be professional i should get rid of travel and athletics sections
+
+
+
+I've been an avid runner for the last decade.  In college, I competed in cross country and track in the NCAA.  After graduation, I've turned my sights towards trail running and triathlon.

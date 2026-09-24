@@ -4,20 +4,48 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "About this site\nhere i put a longer bio\nand maybe link my resume"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Oliver Witt",
     "section": "",
-    "text": "data scientist and ecologist"
+    "text": "Data scientist, ecologist, athlete, and photographer"
   },
   {
     "objectID": "resources.html",
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "All my favorite resources"
+    "text": "resources\nthey had us add this in class\nbut what goes here?"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Oliver Witt",
+    "section": "",
+    "text": "link projects\nlike capstone when i do it\nand maybe final projects for other meds classes\ndef do calacademy research proj here too even though its not data science"
+  },
+  {
+    "objectID": "Running.html",
+    "href": "Running.html",
+    "title": "Oliver Witt",
+    "section": "",
+    "text": "link strava heatmap using leaflet\nlowkey since this is supposed to be professional i should get rid of travel and athletics sections\nI’ve been an avid runner for the last decade. In college, I competed in cross country and track in the NCAA. After graduation, I’ve turned my sights towards trail running and triathlon."
+  },
+  {
+    "objectID": "travel.html",
+    "href": "travel.html",
+    "title": "Oliver Witt",
+    "section": "",
+    "text": "next step is add a little blurb\nand add all the us states ive been to? (idk like one city per state or smthng)"
+  },
+  {
+    "objectID": "photography.html",
+    "href": "photography.html",
+    "title": "Oliver Witt",
+    "section": "",
+    "text": "yeah yeah just like fave photos and stuff\nlowkey since this is supposed to be professional i should get rid of photography section? and also travel and athletics sections"
   }
 ]

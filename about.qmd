@@ -3,3 +3,7 @@ title: "About"
 ---
 
 About this site
+
+here i put a longer bio
+
+and maybe link my resume
