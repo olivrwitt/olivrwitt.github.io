@@ -1,4 +1,16 @@
-yeah yeah just like fave photos and stuff
+
+![Lion](photography/lion_color.jpeg)
+
+![Lion](photography/lion_grayscale.jpeg)
+
+![The Golden Gate Bridge at sunrise](photography/ggb.jpeg)
+
+![Traffic on the Embarcadero, San Francisco](photography/embarcadero.JPG)
+
+![Steep streets, San Francisco](photography/steep_streets.jpg)
+
+![Train in Peru](photography/train.jpeg)
 
 
-lowkey since this is supposed to be professional i should get rid of photography section?  and also travel and athletics sections
+NOTE: this works best with horizontal photos, vertical ones don't fit on whole page (can prob change sizing later)
+ALSO - see if i can add subcategories

@@ -2,9 +2,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "About this site\nhere i put a longer bio\nand maybe link my resume"
+    "text": "I’m currently a Masters student in the MEDS (Environmental Data Science) program in the Bren School of Environmental Science at the University of California, Santa Barbara (UCSB). Prior to UCSB, I graduated from Washington University in St. Louis (WashU), with a bachelors in Ecology and Evolutionary Biology and a minor in Environmental Science. At WashU, I worked as a research assistant in the Carlson laboratory, where I investigated sensory and behavioral ecology of freshwater fish. I also had the opportunity to intern at the California Academy of Sciences’ Institute for Biodiversity Science and Sustainability, where I used genomics and data analytics in R to map the evolutionary history of Caribbean geckos. Through the MEDS program, I aim to further develop data science and programming skills to address biodiversity loss and tackle complex ecological questions. You can learn more about some of my past and current research under the “projects” tab."
   },
   {
     "objectID": "index.html",
@@ -25,7 +25,7 @@
     "href": "projects.html",
     "title": "Oliver Witt",
     "section": "",
-    "text": "link projects\nlike capstone when i do it\nand maybe final projects for other meds classes\ndef do calacademy research proj here too even though its not data science"
+    "text": "link projects\nlike capstone when i do it\nand maybe final projects for other meds classes\ndef do calacademy research proj here too even though its not data science\nInconsistent phylogeographic effects of Pleistocene island connectivity across Lesser Antillean Sphaerodactylus geckos\nEnergetic Costs of Electrogenesis in a Weakly Electric Fish"
   },
   {
     "objectID": "Running.html",
@@ -39,13 +39,13 @@
     "href": "travel.html",
     "title": "Oliver Witt",
     "section": "",
-    "text": "next step is add a little blurb\nand add all the us states ive been to? (idk like one city per state or smthng)"
+    "text": "next step is add a little blurb"
   },
   {
     "objectID": "photography.html",
     "href": "photography.html",
     "title": "Oliver Witt",
     "section": "",
-    "text": "yeah yeah just like fave photos and stuff\nlowkey since this is supposed to be professional i should get rid of photography section? and also travel and athletics sections"
+    "text": "Lion\n\n\n\n\n\nLion\n\n\n\n\n\nThe Golden Gate Bridge at sunrise\n\n\n\n\n\nTraffic on the Embarcadero, San Francisco\n\n\n\n\n\nSteep streets, San Francisco\n\n\n\n\n\nTrain in Peru\n\n\nNOTE: this works best with horizontal photos, vertical ones don’t fit on whole page (can prob change sizing later) ALSO - see if i can add subcategories"
   }
 ]

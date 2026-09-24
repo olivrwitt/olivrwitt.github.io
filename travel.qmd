@@ -1,6 +1,7 @@
-next step is add a little blurb
+---
+title: "Past Travel"
+---
 
-and add all the us states ive been to? (idk like one city per state or smthng)
 
 <div style="text-align: center; margin-bottom: 2rem;">
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
@@ -24,22 +25,34 @@ travel_points <- data.frame(
     "Zurich, Switzerland", "Lucerne, Switzerland",
     "Vaduz, Liechtenstein",
     "Gibraltar, UK",
-    "Vatican City, Vatican",  "Sydney, Australia", "Brisbane, Australia", "Gold Coast, Australia", "Hobart, Australia", "Perth, Australia", "Esperance, Australia", "Christchurch, New Zealand", "Queenstown, New Zealand", "Wanaka, New Zealand", "Quito, Ecuador", "Galapagos, Ecuador", "Puno, Peru", "Cape Town, South Africa", "Johannesburg, South Africa", "Antananarivo, Madagascar", "Lusaka, Zambia", "Nairobi, Kenya", "Merida, Mexico", "Tulum, Mexico", "San Jose, Costa Rica", "Banff, Canada"
+    "Vatican City, Vatican",  "Sydney, Australia", "Brisbane, Australia", "Gold Coast, Australia", "Hobart, Australia", "Perth, Australia", "Esperance, Australia", "Christchurch, New Zealand", "Queenstown, New Zealand", "Wanaka, New Zealand", "Quito, Ecuador", "Galapagos, Ecuador", "Puno, Peru", "Cape Town, South Africa", "Johannesburg, South Africa", "Antananarivo, Madagascar", "Lusaka, Zambia", "Nairobi, Kenya", "Merida, Mexico", "Tulum, Mexico", "San Jose, Costa Rica", "Banff, Canada",
+
+    "San Diego", "Lihue", "Atlanta", "Chicago", "Boston", "Columbus", "Nashville", "Fairbanks", "Grand Canyon", "Boulder", "West Hartford", "Brunswick", "Washington DC", "East Lansing", "Minneapolis", "Las Vegas", "Princeton", "New York", "Orcas Island", "Trout Lake", "Spartanburg", "Milwaukee",
+
+    "Anchorage", "Yosemite", "Sequioa", "Humboldt Redwoods"
  ),
 lat = c(
     41.9028, 44.1194, 43.7228, 45.4408, -12.0464, -13.5320, -13.2861, -13.1631, 49.2827, 37.3891, 37.1773, 41.1579, 37.7739,
     
-    47.2627, 50.8504, 51.3813, 51.5085, 48.8534, 35.3387, 64.1355, 53.3498, 54.3448, 59.9139, 60.3913, 59.3293, 37.8882, 40.4165, 47.3769, 47.0502, 47.1410, 36.1408, 41.9029,  -33.8678, -27.4679, -28.0003, -42.8821, -31.9522, -33.8615, -43.5321, -45.0312, -44.6980, -0.2295, 0.0001, -15.8402, -33.9249, -26.2041, -18.8792, -15.4167, -1.2921, 20.9674, 20.2114, 9.9339, 51.1784
+    47.2627, 50.8504, 51.3813, 51.5085, 48.8534, 35.3387, 64.1355, 53.3498, 54.3448, 59.9139, 60.3913, 59.3293, 37.8882, 40.4165, 47.3769, 47.0502, 47.1410, 36.1408, 41.9029,  -33.8678, -27.4679, -28.0003, -42.8821, -31.9522, -33.8615, -43.5321, -45.0312, -44.6980, -0.2295, 0.0001, -15.8402, -33.9249, -26.2041, -18.8792, -15.4167, -1.2921, 20.9674, 20.2114, 9.9339, 51.1784,
+
+    32.7157, 21.9811, 33.7490, 41.8781, 42.3601, 39.9612, 36.1627, 64.8378, 36.1069, 40.0150, 41.7621, 43.9145, 38.9072, 42.7370, 44.9778, 36.1699, 40.3573, 40.7128, 48.6700, 45.9968, 34.9496, 43.0389,
+
+    61.2181, 37.8277, 36.5077, 40.3224
   ), 
 lon = c(
     12.4964, 9.7159, 10.4017, 12.3155, -77.0428, -71.9675, -72.0716, -72.5450, -123.1207, -5.9845, -3.5986, -8.6291, -122.4312, 
     
-    11.3945, 4.3488, -2.3599, -0.1257, 2.3488, 25.1350, -21.8954, -6.2603, -7.6411, 10.7522, 5.3221, 18.0686, -4.7794, -3.7026, 8.5417, 8.3090, 9.5215, -5.3536, 12.4534, 151.2073, 153.0281, 153.4309, 147.3272, 115.8614, 121.8916, 172.6362, 168.6626, 169.1320, -78.5243, -90.5000, -70.0219, 18.4241, 28.0473, 47.5079, 28.3228, 36.8219, -89.5926, -87.4654, -84.0849, -115.5708
+    11.3945, 4.3488, -2.3599, -0.1257, 2.3488, 25.1350, -21.8954, -6.2603, -7.6411, 10.7522, 5.3221, 18.0686, -4.7794, -3.7026, 8.5417, 8.3090, 9.5215, -5.3536, 12.4534, 151.2073, 153.0281, 153.4309, 147.3272, 115.8614, 121.8916, 172.6362, 168.6626, 169.1320, -78.5243, -90.5000, -70.0219, 18.4241, 28.0473, 47.5079, 28.3228, 36.8219, -89.5926, -87.4654, -84.0849, -115.5708,
+
+    -117.1611, -159.3711, -84.3880, -87.6298, -71.0589, -82.9988, -86.7816, -147.7164, -112.1129, -105.2705, -72.7420, -69.9653, -77.0369, -84.4839, -93.2650, -115.1398, -74.6672, -74.0060, -122.9000, -121.5090, -81.9320, -87.9065,
+
+    -149.9003, -119.5053, -118.5752, -123.9939
   ),
   region = c(
     rep("Europe", 26),
     rep("South America", 7),
-    rep("North America", 5),
+    rep("North America", 31),
     rep("Africa", 5),
     rep("Oceania", 9),
     "Home"

@@ -9,8 +9,6 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - href: resources.qmd
-        text: "Resources"
       - href: projects.qmd
         text: "Projects"
       - href: travel.qmd
@@ -19,7 +17,8 @@ website:
         text: "Athletics"
       - href: photography.qmd
         text: "Photography"
-
+      - href: files/Witt_Resume_MEDS_template_pdf.pdf
+        text: Resume
 
 
 format:

@@ -1,9 +1,6 @@
 ---
-title: "About"
+title: "About Me"
 ---
 
-About this site
+I'm currently a Masters student in the MEDS (Environmental Data Science) program in the Bren School of Environmental Science at the University of California, Santa Barbara (UCSB).  Prior to UCSB, I graduated from Washington University in St. Louis (WashU), with a bachelors in Ecology and Evolutionary Biology and a minor in Environmental Science.  At WashU, I worked as a research assistant in the Carlson laboratory, where I investigated sensory and behavioral ecology of freshwater fish. I also had the opportunity to intern at the California Academy of Sciences' Institute for Biodiversity Science and Sustainability, where I used genomics and data analytics in R to map the evolutionary history of Caribbean geckos.  Through the MEDS program, I aim to further develop data science and programming skills to address biodiversity loss and tackle complex ecological questions.  You can learn more about some of my past and current research under the "projects" tab.
 
-here i put a longer bio
-
-and maybe link my resume
