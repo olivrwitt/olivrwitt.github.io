@@ -1,13 +1,20 @@
-link projects
+---
+title: "Projects"
+listing: 
+  contents: projects
+  sort: false
+  type: grid
+  image-align: right
+  max-description-length: 350
+  date-format: medium
+  categories: false
+page-layout: article
+freeze: auto
+editor: source
+toc: false
+---
 
 
-like capstone when i do it
 
 
-and maybe final projects for other meds classes
-
-def do calacademy research proj here too even though its not data science
-
-Inconsistent phylogeographic effects of Pleistocene island connectivity across Lesser Antillean Sphaerodactylus geckos
-
-Energetic Costs of Electrogenesis in a Weakly Electric Fish
+<!-- comment: add capstone and final projects for other meds classes -->

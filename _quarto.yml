@@ -8,24 +8,22 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: "About Me"
       - href: projects.qmd
         text: "Projects"
-      - href: travel.qmd
-        text: "Travel"
-      - href: Running.qmd
-        text: "Athletics"
-      - href: photography.qmd
-        text: "Photography"
-      - href: files/Witt_Resume_MEDS_template_pdf.pdf
-        text: Resume
+      - href: interests.qmd
+        text: "Interests"
+      - text: Resume
+        href: files/Witt_Resume_MEDS_template_pdf.pdf
+        target: _blank
+        
 
 
 format:
   html:
     theme: 
       light: minty
-      dark: solar
     css: styles.css
     toc: true
     page-layout: full

@@ -1,6 +1,31 @@
 ---
-title: "Past Travel"
+title: "Interests"
+toc: true
 ---
+
+
+### Photography
+
+![Lion](photography/lion_color.jpeg){width=700}
+
+![The Golden Gate Bridge at sunrise](photography/ggb.jpeg){width=700}
+
+![Cape Raoul, Tasmania, Australia](photography/tassie.jpeg){width=700}
+
+![Sunset at La Jolla Shores, San Diego](photography/pelican_sunset.jpeg){width=700}
+
+![Half Dome, Yosemite](photography/halfdome.jpeg){width=700}
+
+![WashU Cross Country](photography/wuxc.JPG){width=700}
+
+![Traffic on the Embarcadero, San Francisco](photography/embarcadero.JPG){width=700}
+
+
+
+<!-- NOTE: this works best with horizontal photos, vertical ones don't fit on whole page (can prob change sizing later)
+ALSO - see if i can add subcategories -->
+
+### Travel
 
 
 <div style="text-align: center; margin-bottom: 2rem;">
