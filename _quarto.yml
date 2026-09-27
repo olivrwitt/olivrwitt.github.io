@@ -6,14 +6,14 @@ website:
   title: "Oliver Witt"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: "About Me"
-      - href: projects.qmd
-        text: "Projects"
-      - href: interests.qmd
-        text: "Interests"
+      - text: Home
+        href: index.qmd
+      - text: "About Me"
+        href: about.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Interests"
+        href: interests.qmd
       - text: Resume
         href: files/Witt_Resume_MEDS_template_pdf.pdf
         target: _blank
