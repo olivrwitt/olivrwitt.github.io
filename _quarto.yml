@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - travel_pics
 
 website:
   title: "Oliver Witt"
@@ -12,8 +14,8 @@ website:
         href: about.qmd
       - text: "Projects"
         href: projects.qmd
-      - text: "Interests"
-        href: interests.qmd
+        # text: "Interests"
+        # href: interests.qmd
       - text: Resume
         href: files/Witt_Resume_MEDS_template_pdf.pdf
         target: _blank
@@ -22,11 +24,10 @@ website:
 
 format:
   html:
-    theme: 
-      light: minty
-    css: styles.css
+    theme: styles.scss
     toc: true
     page-layout: full
+    mainfont: Nunito
 
 
 
