@@ -14,8 +14,8 @@ website:
         href: about.qmd
       - text: "Projects"
         href: projects.qmd
-        # text: "Interests"
-        # href: interests.qmd
+      - text: "Interests"
+        href: interests.qmd
       - text: Resume
         href: files/Witt_Resume_MEDS_template_pdf.pdf
         target: _blank
