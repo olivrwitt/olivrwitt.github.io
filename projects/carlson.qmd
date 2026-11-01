@@ -4,4 +4,4 @@ image: media/Mormyrids-300x297.jpg
 toc: true
 ---
 
-![Research poster, fall 2025](media/symposium poster FINAL.pdf){width=1000 height=750}
+![Research poster, fall 2025 (PDF)](media/carlson-poster.pdf)
