@@ -9,12 +9,6 @@ listing:
   date-format: medium
   categories: false
 page-layout: article
-freeze: auto
 editor: source
 toc: false
 ---
-
-
-
-
-<!-- comment: add capstone and final projects for other meds classes -->
