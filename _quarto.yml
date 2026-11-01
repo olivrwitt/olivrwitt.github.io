@@ -3,6 +3,8 @@ project:
   output-dir: docs
   resources:
     - travel_pics
+    - projects/media
+
 
 website:
   title: "Oliver Witt"
