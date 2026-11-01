@@ -36,7 +36,7 @@ library(dplyr)
 
 travel_points <- data.frame(
   place = c(
-    "Rome, Italy", "Cinque Terre, Italy", "Pisa, Italy", "Venice, Italy", "Lima, Peru", "Cusco, Peru", "Sacred Valley, Peru", "Machu Picchu, Peru", "Vancouver, Canada", "Seville, Spain", "Granada, Spain", "Porto, Portugal", "San Francisco, California", "Innsbruck, Austria", 
+    "Rome, Italy", "Cinque Terre, Italy", "Pisa, Italy", "Venice, Italy", "Lima, Peru", "Cusco, Peru", "Sacred Valley, Peru", "Machu Picchu, Peru", "Vancouver Island, Canada", "Seville, Spain", "Granada, Spain", "Porto, Portugal", "San Francisco, California", "Innsbruck, Austria", 
     "Brussels, Belgium", 
 
     "Amsterdam, Netherlands",
@@ -55,9 +55,9 @@ travel_points <- data.frame(
     "Gibraltar, UK",
     "Vatican City, Vatican",  "Sydney, Australia", "Brisbane, Australia", "Gold Coast, Australia", "Tasmania, Australia", "Perth, Australia", "Esperance, Australia", "Christchurch, New Zealand", "Queenstown, New Zealand", "Wanaka, New Zealand", "Quito, Ecuador", "Galapagos, Ecuador", "Puno, Peru", "Cape Town, South Africa", "Johannesburg, South Africa", "Antananarivo, Madagascar", "Lusaka, Zambia", "Nairobi, Kenya", "Merida, Mexico", "Tulum, Mexico", "San Jose, Costa Rica", "Banff, Canada",
 
-    "San Diego", "Lihue", "Atlanta", "Chicago", "Boston", "Columbus", "Nashville", "Fairbanks", "Grand Canyon", "Boulder", "West Hartford", "Brunswick", "Washington DC", "East Lansing", "Minneapolis", "Las Vegas", "Princeton", "New York", "Orcas Island", "Trout Lake", "Spartanburg", "Milwaukee",
+    "San Diego, California", "Lihue, Hawaii", "Atlanta, Georgia", "Chicago, Illinois", "Boston, Massachusetts", "Columbus, Ohio", "Nashville, Tennessee", "Fairbanks, Alaska", "Grand Canyon, Arizona", "Boulder, Colorado", "West Hartford, Connecticut", "Brunswick, Maine", "Washington DC", "East Lansing, Michigan", "Minneapolis, Minnesota", "Las Vegas, Nevada", "Princeton, New Jersey", "New York, New York", "Orcas Island, Washington", "Trout Lake, Washington", "Spartanburg, South Carolina", "Milwaukee, Wisconsin",
 
-    "Anchorage", "Yosemite", "Sequioa", "Humboldt Redwoods"
+    "Anchorage, Alaska", "Yosemite, California", "Sequoia, California", "Humboldt Redwoods, California"
  ),
 lat = c(
     41.9028, 44.1194, 43.7228, 45.4408, -12.0464, -13.5320, -13.2861, -13.1631, 49.2827, 37.3891, 37.1773, 41.1579, 37.7739,
@@ -201,3 +201,4 @@ leaflet(travel_points) %>%
     )
   )
 ```
+</div>
