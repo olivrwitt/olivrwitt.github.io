@@ -1,0 +1,10 @@
+# re-render posts only when source changes
+freeze: auto
+
+# banner style title blocks
+title-block-banner: true
+
+author:
+    - name: Oliver Witt
+      url: olivrwitt.github.io
+      affiliation: Master of Environmental Data Science @ UCSB Bren School

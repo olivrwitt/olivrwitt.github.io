@@ -1,0 +1,13 @@
+---
+title: "Test"
+description: "test blog post"
+author: 
+    - name: Oliver Witt
+      url: olivrwitt.github.io
+      affiliation: Master of Environmental Data Science @ UCSB Bren School
+date: 11-04-2026
+categories: [Quarto, R, MEDS, Geospatial]
+citation:
+    url: https://olivrwitt.github.io/blog/2026-11-04-test-blog/
+draft: false
+---

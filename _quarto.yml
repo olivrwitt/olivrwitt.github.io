@@ -20,6 +20,8 @@ website:
        #href: photography.qmd
       #- text: "Other Interests"
         #href: interests.qmd
+      - text: "Blog"
+        href: posts.qmd
       - text: Resume
         href: files/Witt_Resume_MEDS_template_pdf.pdf
         target: _blank
