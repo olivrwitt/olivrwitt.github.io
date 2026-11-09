@@ -23,7 +23,7 @@ website:
       - text: "Blog"
         href: posts.qmd
       - text: Resume
-        href: files/Witt_Resume_MEDS_template_pdf.pdf
+        href: files/Resume_Oliver_Witt.pdf
         target: _blank
         
 
