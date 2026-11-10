@@ -7,6 +7,13 @@
     "text": "Travel"
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Welcome! I’m an ecologist and data science interested in using advanced tools and technologies to address biodiversity and conservation issues. Currently, I am pursuing a masters degree in the MEDS (Environmental Data Science) program in the Bren School of Environmental Science at the University of California, Santa Barbara (UCSB). Prior to UCSB, I graduated from Washington University in St. Louis (WashU), with a bachelors in Ecology and Evolutionary Biology and a minor in Environmental Science. At WashU, I worked as a research assistant in the Carlson laboratory, where I investigated sensory and behavioral ecology of freshwater fish. I also had the opportunity to intern at the California Academy of Sciences’ Institute for Biodiversity Science and Sustainability, where I used genomics and data analytics in R to map the evolutionary history of Caribbean geckos. Through the MEDS program, I aim to further develop data science and programming skills to address biodiversity loss and tackle complex ecological questions. You can learn more about some of my past and current work under the “projects” tab."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Oliver Witt",
@@ -28,6 +35,13 @@
     "text": "Lion\n\n\n\n\n\nThe Golden Gate Bridge at sunrise\n\n\n\n\n\nCape Raoul, Tasmania, Australia\n\n\n\n\n\nSunset at La Jolla Shores, San Diego\n\n\n\n\n\nHalf Dome, Yosemite\n\n\n\n\n\nWashU Cross Country\n\n\n\n\n\nTraffic on the Embarcadero, San Francisco"
   },
   {
+    "objectID": "posts/2026-11-04-test-blog/index.html",
+    "href": "posts/2026-11-04-test-blog/index.html",
+    "title": "Test",
+    "section": "",
+    "text": "CitationBibTeX citation:@online{witt2026,\n  author = {Witt, Oliver},\n  title = {Test},\n  date = {2026-11-04},\n  url = {https://olivrwitt.github.io/blog/2026-11-04-test-blog/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nWitt, Oliver. 2026. “Test.” November 4. https://olivrwitt.github.io/blog/2026-11-04-test-blog/."
+  },
+  {
     "objectID": "projects/carlson.html",
     "href": "projects/carlson.html",
     "title": "Energetic Costs of Electrogenesis in a Weakly Electric Fish",
@@ -42,10 +56,17 @@
     "text": "Energetic Costs of Electrogenesis in a Weakly Electric Fish\n\n\nResearch poster on the energetic costs of electrogenesis in mormyrid fish (Fall 2025)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInconsistent phylogeographic effects of Pleistocene island connectivity across Lesser Antillean Sphaerodactylus geckos\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
+    "objectID": "readme.html",
+    "href": "readme.html",
+    "title": "Oliver Witt",
     "section": "",
-    "text": "I’m currently a Masters student in the MEDS (Environmental Data Science) program in the Bren School of Environmental Science at the University of California, Santa Barbara (UCSB). Prior to UCSB, I graduated from Washington University in St. Louis (WashU), with a bachelors in Ecology and Evolutionary Biology and a minor in Environmental Science. At WashU, I worked as a research assistant in the Carlson laboratory, where I investigated sensory and behavioral ecology of freshwater fish. I also had the opportunity to intern at the California Academy of Sciences’ Institute for Biodiversity Science and Sustainability, where I used genomics and data analytics in R to map the evolutionary history of Caribbean geckos. Through the MEDS program, I aim to further develop data science and programming skills to address biodiversity loss and tackle complex ecological questions. You can learn more about some of my past and current research under the “projects” tab."
+    "text": "Changes: - update “about me” tab and make it look nicer - add more photos and stuff - edit interests and photography pages and eventually publish them to the site"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "My Blog",
+    "section": "",
+    "text": "Test\n\n\n\nQuarto\n\nR\n\nMEDS\n\nGeospatial\n\n\n\ntest blog post\n\n\n\nOliver Witt\n\n\nNov 4, 2026\n\n\n\n\n\n\nNo matching items"
   }
 ]
