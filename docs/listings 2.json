@@ -1,0 +1,17 @@
+[
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/inatGH.html",
+      "/projects/capstone.html",
+      "/projects/carlson.html",
+      "/projects/calacad.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/2026-11-04-test-blog/index.html"
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+---
+title: "My Blog"
+listing:
+    contents: posts
+    type: grid #options are default, grid, table
+    sort: "date desc" #newer first
+    categories: true
+---

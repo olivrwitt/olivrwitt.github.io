@@ -1,0 +1,5 @@
+---
+title: "Capstone"
+description: "Placeholder for MEDS Capstone Project (coming soon)"
+toc: true
+---

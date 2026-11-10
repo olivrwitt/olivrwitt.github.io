@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "interests.html",
+    "href": "interests.html",
+    "title": "Other Interests",
+    "section": "",
+    "text": "Travel"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Welcome! I’m an ecologist and data science interested in using advanced tools and technologies to address biodiversity and conservation issues. Currently, I am pursuing a masters degree in the MEDS (Environmental Data Science) program in the Bren School of Environmental Science at the University of California, Santa Barbara (UCSB). Prior to UCSB, I graduated from Washington University in St. Louis (WashU), with a bachelors in Ecology and Evolutionary Biology and a minor in Environmental Science. At WashU, I worked as a research assistant in the Carlson laboratory, where I investigated sensory and behavioral ecology of freshwater fish. I also had the opportunity to intern at the California Academy of Sciences’ Institute for Biodiversity Science and Sustainability, where I used genomics and data analytics in R to map the evolutionary history of Caribbean geckos. Through the MEDS program, I aim to further develop data science and programming skills to address biodiversity loss and tackle complex ecological questions. You can learn more about some of my past and current work under the “projects” tab."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Oliver Witt",
+    "section": "",
+    "text": "Data scientist, ecologist, athlete, and photographer"
+  },
+  {
+    "objectID": "projects/calacad.html",
+    "href": "projects/calacad.html",
+    "title": "Inconsistent phylogeographic effects of Pleistocene island connectivity across Lesser Antillean Sphaerodactylus geckos",
+    "section": "",
+    "text": "Research project studying the effects of Pleistocene island connectivity in the Caribbean on the distribution and speciation of Sphaerodactylus geckos. Advised by Dr. Michael Yuan. Presented as a research poster at SACNAS 2025, as well as a forthcoming peer-reviewed paper.\n\n\n\nPoster presentation at SACNAS, fall 2025"
+  },
+  {
+    "objectID": "photography.html",
+    "href": "photography.html",
+    "title": "Photography",
+    "section": "",
+    "text": "Lion\n\n\n\n\n\nThe Golden Gate Bridge at sunrise\n\n\n\n\n\nCape Raoul, Tasmania, Australia\n\n\n\n\n\nSunset at La Jolla Shores, San Diego\n\n\n\n\n\nHalf Dome, Yosemite\n\n\n\n\n\nWashU Cross Country\n\n\n\n\n\nTraffic on the Embarcadero, San Francisco"
+  },
+  {
+    "objectID": "posts/2026-11-04-test-blog/index.html",
+    "href": "posts/2026-11-04-test-blog/index.html",
+    "title": "Test",
+    "section": "",
+    "text": "CitationBibTeX citation:@online{witt2026,\n  author = {Witt, Oliver},\n  title = {Test},\n  date = {2026-11-04},\n  url = {https://olivrwitt.github.io/blog/2026-11-04-test-blog/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nWitt, Oliver. 2026. “Test.” November 4. https://olivrwitt.github.io/blog/2026-11-04-test-blog/."
+  },
+  {
+    "objectID": "projects/carlson.html",
+    "href": "projects/carlson.html",
+    "title": "Energetic Costs of Electrogenesis in a Weakly Electric Fish",
+    "section": "",
+    "text": "Advised by Dr. Bruce Carlson and PhD Student Ellen Urquhart at Washington University in St. Louis. Research focused broadly on the behavioral ecology of mormyrid fish (specifically maze behavior and foraging behavior), and their evolutionary biology (specifically the evolutionary tradeoffs of electrogenesis and other costly traits).\nBelow is a fall 2025 research poster on the energetic costs of electrogenesis in mormyrid fish.\n\n\n\nResearch Poster (PDF)"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Using community science data to investigate the impact of the closure of San Francisco’s Great Highway on local wildlife\n\n\nFinal project for a masters course. In progress\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCapstone\n\n\nPlaceholder for MEDS Capstone Project (coming soon)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnergetic Costs of Electrogenesis in a Weakly Electric Fish\n\n\nMulti-year undergraduate research project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInconsistent phylogeographic effects of Pleistocene island connectivity across Lesser Antillean Sphaerodactylus geckos\n\n\nResearch project produced as part of the California Academy of Sciences’ SSI Internship program\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "readme.html",
+    "href": "readme.html",
+    "title": "Oliver Witt",
+    "section": "",
+    "text": "Changes: - update “about me” tab and make it look nicer - add more photos and stuff - edit interests and photography pages and eventually publish them to the site"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "My Blog",
+    "section": "",
+    "text": "Test\n\n\n\nQuarto\n\nR\n\nMEDS\n\nGeospatial\n\n\n\ntest blog post\n\n\n\nOliver Witt\n\n\nNov 4, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/inatGH.html",
+    "href": "projects/inatGH.html",
+    "title": "Using community science data to investigate the impact of the closure of San Francisco’s Great Highway on local wildlife",
+    "section": "",
+    "text": "Question\nHas the 2022 closure of San Francisco’s Great Highway and subsequent conversion into a park (Sunset Dunes) increased the amount of wildlife frequenting the park and surrounding neighborhood? This will be quantified using iNaturalist data, specifically using observations of several key native species (Red-Tailed Hawk, Snowy Plover, Common Racoon, Anna’s Hummingbird, Yellow-faced Bumble Bee, White-Crowned Sparrow).\n\n\nBackground\nThe Great Highway was a 3.8-mile section of coastal roadway in San Francisco. It was closed to traffic during the 2020 Covid-19 pandemic due to low traffic and costly maintenance. It became popular during that time as a site for walking, running, and cycling. Due to this popularity as a recreation site, the roadway was closed again in December 2022 and eventually converted into a park called Sunset Dunes (SFMTA). This decision has been extremely divisive, with multiple government officials being recalled over their role in the debate. The question of keeping the road closed has been placed on the ballot to be decided by city voters three times since 2022, with the most recent time being the current election (SF Standard). The arguments in favor of the park have so far focused on its value as a recreation site. I believe that uncovering the impact on the ecology and biodiversity of San Francisco’s Sunset neighborhood can lend an important new angle to the argument for keeping the park. A 2024 report by the San Francisco Estuary Institute argued that long-term closure of the roadway would likely have a large positive impact on San Francisco’s urban ecology, thanks to the Great Highway’s location as a linkage between two larger parks (KQED). Using iNaturalist data from before and after the road closure, I hope to demonstrate the positive results put forward by this report.\n\n\nData\nThe data for this project consists of iNaturalist observations, which are citizen science observations of wildlife generated by users of the iNaturalist app. One row in this data consists of one observation, and includes the datetime of observation, coordinates in latitude/longitude form, scientific name, common name, a description generated by the user, and whether or not the observed species was wild or domestic/cultivated (useful so that we can ensure the data is filtered to only wild native species). The response variable that I am most interested in is the number or frequency of observations, and how that varies over three time periods/states: highway (prior to April 2020, and then August 2021 to December 2022), initial closure (April 2020 to August 2021, when there were no cars on the road, but the park improvements such as native plant planters were not yet in place), and semi-permanent (December 2022 to present).\n\n\nCitations\nCover image from The SF Marathon blog.\nData accessed from iNaturalist.\nBackground information from SFMTA, SF Standard, and KQED."
+  }
+]

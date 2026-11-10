@@ -1,8 +1,10 @@
 ---
 title: "Inconsistent phylogeographic effects of Pleistocene island connectivity across Lesser Antillean _Sphaerodactylus_ geckos"
-Description: "Research project studying the effects of Pleistocene island connectivity in the Caribbean on the distribution and speciation of _Sphaerodactylus_ geckos. Presented as a research poster at SACNAS 2025, as well as a forthcoming peer-reviewed paper."
+description: "Research project produced as part of the California Academy of Sciences' SSI Internship program"
 image: media/Sphaerodactylus_sputator_stmartin.jpg
 toc: true
 ---
+Research project studying the effects of Pleistocene island connectivity in the Caribbean on the distribution and speciation of _Sphaerodactylus_ geckos. Advised by Dr. Michael Yuan.  Presented as a research poster at SACNAS 2025, as well as a forthcoming peer-reviewed paper.
+
 
 ![Poster presentation at SACNAS, fall 2025](media/sacnas25.jpeg)

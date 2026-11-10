@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Final project for a masters course. In progress">
 
-<title>My Blog – Oliver Witt</title>
+<title>Using community science data to investigate the impact of the closure of San Francisco’s Great Highway on local wildlife – Oliver Witt</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,25 +30,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-58b95fd6bb905a0141987e8a9bd14cb0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-58b95fd6bb905a0141987e8a9bd14cb0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,65 +74,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -144,7 +85,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Oliver Witt</span>
     </a>
   </div>
@@ -155,23 +96,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
-<span class="menu-text">Projects</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" aria-current="page"> 
-<span class="menu-text">Blog</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./files/Resume_Oliver_Witt.pdf" target="_blank"> 
+    <a class="nav-link" href="../files/Resume_Oliver_Witt.pdf" target="_blank"> 
 <span class="menu-text">Resume</span></a>
   </li>  
 </ul>
@@ -186,16 +119,30 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2Vvc3BhdGlhbA==">Geospatial <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TUVEUw==">MEDS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UXVhcnRv">Quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#question" id="toc-question" class="nav-link active" data-scroll-target="#question">Question</a></li>
+  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  <li><a href="#citations" id="toc-citations" class="nav-link" data-scroll-target="#citations">Citations</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">My Blog</h1>
+<h1 class="title">Using community science data to investigate the impact of the closure of San Francisco’s Great Highway on local wildlife</h1>
 </div>
 
+<div>
+  <div class="description">
+    Final project for a masters course. In progress
+  </div>
+</div>
 
 
 <div class="quarto-title-meta column-page-left">
@@ -210,48 +157,28 @@ window.Quarto = {
 </header>
 
 
+<section id="question" class="level3">
+<h3 class="anchored" data-anchor-id="question">Question</h3>
+<p>Has the 2022 closure of San Francisco’s Great Highway and subsequent conversion into a park (Sunset Dunes) increased the amount of wildlife frequenting the park and surrounding neighborhood? This will be quantified using iNaturalist data, specifically using observations of several key native species (Red-Tailed Hawk, Snowy Plover, Common Racoon, Anna’s Hummingbird, Yellow-faced Bumble Bee, White-Crowned Sparrow).</p>
+</section>
+<section id="background" class="level3">
+<h3 class="anchored" data-anchor-id="background">Background</h3>
+<p>The Great Highway was a 3.8-mile section of coastal roadway in San Francisco. It was closed to traffic during the 2020 Covid-19 pandemic due to low traffic and costly maintenance. It became popular during that time as a site for walking, running, and cycling. Due to this popularity as a recreation site, the roadway was closed again in December 2022 and eventually converted into a park called Sunset Dunes (<a href="https://www.sfmta.com/projects/great-highway-pilot-project">SFMTA</a>). This decision has been extremely divisive, with multiple government officials being recalled over their role in the debate. The question of keeping the road closed has been placed on the ballot to be decided by city voters three times since 2022, with the most recent time being the current election (<a href="https://sfstandard.com/2026/10/22/great-highway-prop-g-sunset-dunes-forever-war/">SF Standard</a>). The arguments in favor of the park have so far focused on its value as a recreation site. I believe that uncovering the impact on the ecology and biodiversity of San Francisco’s Sunset neighborhood can lend an important new angle to the argument for keeping the park. A 2024 report by the San Francisco Estuary Institute argued that long-term closure of the roadway would likely have a large positive impact on San Francisco’s urban ecology, thanks to the Great Highway’s location as a linkage between two larger parks (<a href="https://www.kqed.org/news/12009607/turning-sfs-great-highway-park-major-ecological-benefits-report-says">KQED</a>). Using iNaturalist data from before and after the road closure, I hope to demonstrate the positive results put forward by this report.</p>
+</section>
+<section id="data" class="level3">
+<h3 class="anchored" data-anchor-id="data">Data</h3>
+<p>The data for this project consists of iNaturalist observations, which are citizen science observations of wildlife generated by users of the iNaturalist app. One row in this data consists of one observation, and includes the datetime of observation, coordinates in latitude/longitude form, scientific name, common name, a description generated by the user, and whether or not the observed species was wild or domestic/cultivated (useful so that we can ensure the data is filtered to only wild native species). The response variable that I am most interested in is the number or frequency of observations, and how that varies over three time periods/states: highway (prior to April 2020, and then August 2021 to December 2022), initial closure (April 2020 to August 2021, when there were no cars on the road, but the park improvements such as native plant planters were not yet in place), and semi-permanent (December 2022 to present).</p>
+</section>
+<section id="citations" class="level3">
+<h3 class="anchored" data-anchor-id="citations">Citations</h3>
+<p>Cover image from <a href="https://www.thesfmarathon.com/blog/2025/08/29/sunset-dunes-san-franciscos-newest-park-sfm-ambassador-scott-benbows-city-guide/">The SF Marathon blog</a>.</p>
+<p>Data accessed from <a href="https://www.inaturalist.org/observations">iNaturalist</a>.</p>
+<p>Background information from <a href="https://www.sfmta.com/projects/great-highway-pilot-project">SFMTA</a>, <a href="https://sfstandard.com/2026/10/22/great-highway-prop-g-sunset-dunes-forever-war/">SF Standard</a>, and <a href="https://www.kqed.org/news/12009607/turning-sfs-great-highway-park-major-ecological-benefits-report-says">KQED</a>.</p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="UXVhcnRvJTJDUiUyQ01FRFMlMkNHZW9zcGF0aWFs" data-listing-date-sort="1793779200000" data-listing-file-modified-sort="1793820990216" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./posts/2026-11-04-test-blog/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Test
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UXVhcnRv'); return false;">Quarto</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TUVEUw=='); return false;">MEDS</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('R2Vvc3BhdGlhbA=='); return false;">Geospatial</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>test blog post</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Oliver Witt
-</div>
-<div class="listing-date">
-Nov 4, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

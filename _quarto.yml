@@ -14,14 +14,14 @@ website:
         href: index.qmd
       - text: "About Me"
         href: about.qmd
-      - text: "Projects"
-        href: projects.qmd
+      # - text: "Projects"
+        #href: projects.qmd
       # - text: "Photography"
        #href: photography.qmd
       #- text: "Other Interests"
         #href: interests.qmd
-      - text: "Blog"
-        href: posts.qmd
+      # - text: "Blog"
+       # href: posts.qmd
       - text: Resume
         href: files/Resume_Oliver_Witt.pdf
         target: _blank

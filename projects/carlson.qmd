@@ -1,8 +1,12 @@
 ---
 title: "Energetic Costs of Electrogenesis in a Weakly Electric Fish"
-description: "Research poster on the energetic costs of electrogenesis in mormyrid fish (Fall 2025)"
+description: "Multi-year undergraduate research project"
 image: media/Mormyrids-300x297.jpg
 toc: true
 ---
+Advised by Dr. Bruce Carlson and PhD Student Ellen Urquhart at Washington University in St. Louis.  Research focused broadly on the behavioral ecology of mormyrid fish (specifically maze behavior and foraging behavior), and their evolutionary biology (specifically the evolutionary tradeoffs of electrogenesis and other costly traits).
+
+
+Below is a fall 2025 research poster on the energetic costs of electrogenesis in mormyrid fish.
 
 ![Research Poster (PDF)](media/carlson-poster.pdf){width=100% height=900px}

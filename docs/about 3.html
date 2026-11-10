@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>readme – Oliver Witt</title>
+<title>About Me – Oliver Witt</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -40,7 +40,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -99,12 +98,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link active" href="./about.html" aria-current="page"> 
 <span class="menu-text">About Me</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
-<span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./posts.html"> 
@@ -125,29 +120,26 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<div class="quarto-about-jolla column-page">
+  <img src="images/giantsalamander.jpeg" class="about-image
+  round " style="height: 17em; width: 17em;">
+ <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">About Me</h1>
+</div>
+<div class="quarto-title-meta column-page">
+  </div>
+</header><main class="content column-page" id="quarto-document-content">
+<p>Welcome! I’m an ecologist and data science interested in using advanced tools and technologies to address biodiversity and conservation issues. Currently, I am pursuing a masters degree in the MEDS (Environmental Data Science) program in the Bren School of Environmental Science at the University of California, Santa Barbara (UCSB). Prior to UCSB, I graduated from Washington University in St.&nbsp;Louis (WashU), with a bachelors in Ecology and Evolutionary Biology and a minor in Environmental Science. At WashU, I worked as a research assistant in the Carlson laboratory, where I investigated sensory and behavioral ecology of freshwater fish. I also had the opportunity to intern at the California Academy of Sciences’ Institute for Biodiversity Science and Sustainability, where I used genomics and data analytics in R to map the evolutionary history of Caribbean geckos. Through the MEDS program, I aim to further develop data science and programming skills to address biodiversity loss and tackle complex ecological questions. You can learn more about some of my past and current work under the “projects” tab.</p>
 
 
-
-
-<p>Changes: - update “about me” tab and make it look nicer - remove annotation function from Carlson poster pdf - change resume filepath to something cleaner (right now it is “resume-MEDS-template”) - add more photos and stuff - edit interests and photography pages and eventually publish them to the site</p>
-
-
-
-</main> <!-- /main -->
+</main>  
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
