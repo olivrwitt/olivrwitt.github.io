@@ -1,5 +1,6 @@
 ---
 title: "My Blog"
+description: "Research updates, side projects, and random thoughts"
 listing:
     contents: posts
     type: grid #options are default, grid, table
