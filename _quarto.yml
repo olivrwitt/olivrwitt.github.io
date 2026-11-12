@@ -22,6 +22,8 @@ website:
         #href: interests.qmd
       # - text: "Blog"
        # href: posts.qmd
+      # - text: "Running"
+        # href: sport.qmd
       - text: Resume
         href: files/Resume_Oliver_Witt.pdf
         target: _blank
