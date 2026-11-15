@@ -20,8 +20,8 @@ website:
        #href: photography.qmd
       #- text: "Other Interests"
         #href: interests.qmd
-      # - text: "Blog"
-       # href: posts.qmd
+      #- text: "Blog"
+        #href: posts.qmd
       # - text: "Running"
         # href: sport.qmd
       - text: Resume

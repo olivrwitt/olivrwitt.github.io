@@ -1,0 +1,56 @@
+---
+title: "Addressing Sampling Bias in Citizen Science Data"
+description: "Exploring causes, impacts, and solutions for citizen science data bias"
+author: 
+    - name: Oliver Witt
+      url: olivrwitt.github.io
+      affiliation: Master of Environmental Data Science @ UCSB Bren School
+date: 11-15-2026
+categories: [MEDS, Ethics]
+draft: false
+image: ../media/inat-logo.jpeg
+toc: true
+---
+
+With unprecedented levels of biodiversity loss occurring worldwide, the need for tools to effectively map and monitor current species distributions as well as shifts in species distributions driven by environmental change.  A promising tool for this task is citizen science biodiversity data platforms such as iNaturalist and eBird.  These platforms allow users to submit observations of their local flora and fauna, creating a wealth of global and historical biodiversity data.  While the use of such tools is promising (over 7,000 papers to date have cited iNaturalist data), several inherent data issues must be addressed.  Specifically, citizen science data comes with inherent spatial, temporal, and observer biases that must be corrected for before the data can be used.
+
+Citizen science platforms like iNaturalist and eBird are becoming increasingly prevalent and useful in assessing species ranges and distributions, documenting new species, and quantifying biodiversity shifts and effects of environmental change.  The most popular of these platforms, iNaturalist, contained over 260 million unique observations from over 3 million global users as of 2026.  While such platforms are enormously useful for biodiversity data, this data does come with several inherent issues.  
+
+Firstly, these platforms rely on the observer to identify the species in their observation.  As most users are not taxonomic experts, this process comes with the potential of misidentification and unavoidably creates a source of data bias.  Konno et al. identify this type of data bias as “data entry bias”, occurring when data is entered incorrectly – in this case, when incorrect species identifications are uploaded to iNaturalist or similar platforms.  Such data entry bias may occur due to simple error, due to confirmation bias arising from users hoping to see a certain species, or even intentional mis-entry.  Importantly, data is never truly “raw” and therefore we must take into account the purposes of data collection and the motives and background of the data collectors.  Citizen science data by nature comes from an enormous amount of collectors (iNaturalist for example has 3.3 million users), there is no way to know this.  In this way, the way that citizen science data is collected places limits on the inferences we can obtain from it.
+
+iNaturalist does have several mechanisms to reduce observer bias, however, this source of bias must still be accounted for in any research utilizing iNaturalist or other citizen science data.  Studies that us iNaturalist typically only use “research grade” observations, which require the consensus of several users.  Additionally, iNaturalist has recently integrated AI image recognition tools into the platform with the aim of aiding identification.  Still, these guardrails are not perfect, and incorrect identifications can still create a significant source of data bias with the potential to confound the results of studies that use iNaturalist data.  
+In addition to this observer bias, citizen science data from iNaturalist and similar platforms carries inherent spatial sampling bias.  This data relies on opportunistic observations rather than structured surveys, and therefore observations tend to cluster in areas with a high prevalence of users of the platform.  This means that observations cluster around roads, population centers, and popular parks rather than representing true species distributions.  According to the framework set out by Konno in _potential types of bias when estimating causal effects in environmental research and how to interpret them_, this type of bias can be classified as “availability bias”.  Species that can be seen in the places regularly frequented by iNaturalist users are more “available” to be observed, and therefore will be overrepresented in the data.  This spatial sampling bias is also paired with temporal sampling bias.  Citizen science platforms such as iNaturalist have become increasingly popular in recent years, meaning that the temporal distribution of observations is skewed towards the last few years.  This temporal bias can create issues when citizen science data is used to quantify biodiversity shifts over time.
+
+Finally, citizen science biodiversity data also carries a high degree of taxonomic data bias.  Users are far more likely to report more charismatic, “interesting”, or “exotic” species; leaving many taxa underreported.  For example, the kingdom _Animalia_ (mammals, reptiles, birds, etc.) is far overrepresented compared to insects, plants, and fungi; especially when true relative abundances are taken into account.  Diaz-Calafat et al also found that certain insect orders are overrepresented compared to others.
+
+Despite the inherent issues with citizen science data, iNaturalist and similar citizen science platforms can still be powerful tools for biodiversity research.  The question then becomes how best to mitigate or remove these biases from the data.  Researchers have proposed several solutions, including spatial under-sampling and modeling the intensity of individual observation.  Backstrom et al. describe utilizing increasingly complex statistical models that account not only for these sources of bias, but also for the interactions between them.  Specifically, explicitly including an interaction term between temporal and spatial bias in the model allowed them to account for the majority of the impact of temporal and spatial sampling bias on their example citizen science dataset.  Bird et al. suggest collecting data that will allow characterization of sampling bias.  This includes re-sampling certain parts of the study area and assessing the degree to which those results differ.  They also suggest that advanced machine learning tools can run complex statistical models that account for as much potential bias as possible.  However, they maintain that the best way to mitigate bias in citizen science data is careful experiment design as well as choosing the correct statistical model.
+In summary, citizen science data is an important and powerful tool for biodiversity and conservation research, despite the inherent biases that it carries.  Data entry bias, taxonomic bias, and both temporal and spatial sampling bias are known to be prevalent in citizen science datasets.  However, the effects of these biases can be effectively mitigated by proper survey design, selective re-sampling, and most importantly, advanced statistical modeling that accounts not only for bias, but also for the interactions between types of bias. 
+
+
+
+
+
+Sources:
+
+
+  Mason, Brittany M, Thomas Mesaglio, Jackson Barratt Heitmann, Mark Chandler, Shawan Chowdhury, Simon B Gorta, Florencia Grattarola, et al. “INaturalist Accelerates Biodiversity Research.” BioScience 75, no. 11 (July 28, 2025): 953–65. https://doi.org/10.1093/biosci/biaf104. 
+
+  “INaturalist.” iNaturalist, 2008. https://www.inaturalist.org/. 
+
+  eBird, 2026. https://ebird.org/home. 
+
+  Konno, Ko, James Gibbons, Ruth Lewis, and Andrew S Pullin. “Potential Types of Bias When Estimating Causal Effects in Environmental Research and How to Interpret Them.” Environmental Evidence 13, no. 1 (February 7, 2024). https://doi.org/10.1186/s13750-024-00324-7. 
+
+  Barrowman, Nick. “Why Data Is Never Raw.” The New Atlantis no. 56, 2018. 
+
+  “Seek by iNaturalist · iNaturalist.” iNaturalist.org, June 2023. https://www.inaturalist.org/pages/seek_app. 
+
+  Backstrom, Louis J., Corey T. Callaghan, Hannah Worthington, Richard A. Fuller, and Alison Johnston. “Estimating Sampling Biases in Citizen Science Datasets.” Ibis 167, no. 1 (June 28, 2024): 73–87. https://doi.org/10.1111/ibi.13343. 
+
+  Díaz-Calafat, Joan, Sebastià Jaume-Ramis, Karen Soacha, Ana Álvarez, and Jaume Piera. “Revealing Biases in Insect Observations: A Comparative Analysis between Academic and Citizen Science Data.” PLOS ONE 19, no. 7 (July 18, 2024). https://doi.org/10.1371/journal.pone.0305757. 
+
+  Robinson, Orin J., Viviana Ruiz‐Gutierrez, and Daniel Fink. “Correcting for Bias in Distribution Modelling for Rare Species Using Citizen Science Data.” Diversity and Distributions 24, no. 4 (December 27, 2017): 460–72. https://doi.org/10.1111/ddi.12698. 
+
+  Geldmann, Jonas, Jacob Heilmann‐Clausen, Thomas E. Holm, Irina Levinsky, Bo Markussen, Kent Olsen, Carsten Rahbek, and Anders P. Tøttrup. “What Determines Spatial Bias in Citizen Science? Exploring Four Recording Schemes with Different Proficiency Requirements.” Diversity and Distributions 22, no. 11 (August 21, 2016): 1139–49. https://doi.org/10.1111/ddi.12477. 
+ 
+  Bird, Tomas J., Amanda E. Bates, Jonathan S. Lefcheck, Nicole A. Hill, Russell J. Thomson, Graham J. Edgar, Rick D. Stuart-Smith, et al. “Statistical Solutions for Error and Bias in Global Citizen Science Datasets.” Biological Conservation 173 (May 2014): 144–54. https://doi.org/10.1016/j.biocon.2013.07.037. 
